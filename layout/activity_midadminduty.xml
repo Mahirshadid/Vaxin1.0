@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".midadminduty">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আপনার কর্তব্য"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/dorange"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="* আপনি একজন মিড লেভেল এডমিন"
+            android:textSize="17sp"
+            android:textColor="@color/text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:text="* আপনি ভ্যাকসিন গ্রহণকারীদের নোট নেবেন"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:text="* প্রয়োজনে আপনি সরকারি কর্মচারীদের সাথে যোগাযোগ করবেন"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:text="* আপনার কাছে ভ্যাকসিন গ্রহণকারীদের ডাটাবেস দেখার ক্ষমতা আছে"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:text="* প্রয়োজনে আপনাকে সরকারি অফিসে পাঠানো হবে"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="* আপনি সততা, বিশ্বস্ততার জন্য প্রতিশ্রুতিবদ্ধ"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:text="* আপনি নাগরিকদের তথ্য কোনো তৃতীয় পক্ষের সাথে শেয়ার করতে পারবেন না"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:text="* প্রয়োজনে আপনাকে তাৎক্ষণিক মিটিংয়ে আসতে হবে"
+            android:textColor="@color/text"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

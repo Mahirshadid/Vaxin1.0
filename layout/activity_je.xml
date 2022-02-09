@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".je">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circle4"
+                android:src="@drawable/ic_sick3"
+                android:padding="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lgrey"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Japanese Encephalitis"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="ঝুঁকি"
+                    android:textColor="@color/dorange"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="বিক্ষিপ্ত ঘটনা সারা দেশে রিপোর্ট করা হয়. মে থেকে অক্টোবর পর্যন্ত সংক্রমণ ঘটে।\n\nজাপানিজ এনসেফালাইটিস দক্ষিণ-পূর্ব এশিয়ায় দেখা দেয়। দীর্ঘমেয়াদী ভ্রমণকারী ব্যক্তিরা বা স্থানীয় অঞ্চলে যাওয়ার কাজের দায়িত্বে থাকা ব্যক্তিরা ঝুঁকির মধ্যে রয়েছে, বিশেষ করে যারা গ্রামীণ এলাকা, খামার, ধানের ক্ষেত এবং সেচের এলাকায় যান। 15 বছরের কম বয়সী শিশুরা সংক্রমণের জন্য বিশেষভাবে সংবেদনশীল বলে মনে হচ্ছে। প্রাদুর্ভাব সাধারণত নাতিশীতোষ্ণ অঞ্চলে বর্ষার সময় বা তার পরেই ঘটে এবং গ্রীষ্মমন্ডলীয় অঞ্চলে সারা বছর ধরে (গ্রীষ্মের মাসগুলিতে সর্বোচ্চ সংক্রমণ)।"
+                    android:textColor="@color/text"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="লক্ষণ"
+                    android:textColor="@color/dorange"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="বেশিরভাগ ক্ষেত্রেই উপসর্গবিহীন - ব্যক্তিরা উপসর্গ প্রদর্শন করেন না। যাদের উপসর্গ রয়েছে তারা সাধারণত ভাইরাসের সংস্পর্শে আসার 5 থেকে 15 দিন পরে অসুস্থ হয়ে পড়েন। লক্ষণগুলির মধ্যে রয়েছে জ্বর, তীব্র মাথাব্যথা, বমি, ডায়রিয়া এবং সাধারণ দুর্বলতা। কিছু রোগীর স্নায়বিক উপসর্গ যেমন কম্পন, খিঁচুনি (বিশেষ করে শিশুরা), ভাবহীন মুখ, এবং হঠাৎ পক্ষাঘাত যা শ্বাসতন্ত্রকে প্রভাবিত করতে পারে এবং মূত্রাশয় ধরে রাখার সমস্যা সৃষ্টি করতে পারে। রোগীরা আচরণগত পরিবর্তনগুলিও অনুভব করতে পারে যা মানসিক অসুস্থতা হিসাবে ভুল নির্ণয় করা যেতে পারে। জাপানি এনসেফালাইটিস 20% থেকে 30% শতাংশ ক্ষেত্রে মারাত্মক হতে পারে এবং অনেক বেঁচে থাকা ব্যক্তিদের দীর্ঘমেয়াদী স্নায়বিক, মানসিক, বা জ্ঞানীয় সমস্যা অব্যাহত রয়েছে। চিকিত্সার মধ্যে লক্ষণগুলির সহায়ক যত্ন অন্তর্ভুক্ত।"
+                    android:textColor="@color/text"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/regothervacbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="1dp"
+            android:padding="20dp"
+            android:text="Go to Registration Page"
+            android:textAllCaps="false" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

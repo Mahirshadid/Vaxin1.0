@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rabies">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/ic_rabies"
+                android:padding="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lgrey"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabies"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="লক্ষণ"
+                    android:textColor="@color/dorange"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="সাধারণত 1 থেকে 3 মাসের মধ্যে উপসর্গ দেখা দেয়, যদিও ভাইরাসের সংস্পর্শে আসার কয়েক দিনের মধ্যেই এগুলি দেখা দিতে পারে। অসুখটি জ্বর এবং ব্যথা বা ক্ষতস্থানে একটি শিহরণ সংবেদন দ্বারা চিহ্নিত করা হয়। মস্তিষ্ক এবং মেরুদন্ডে প্রদাহের ফলে, কিছু রোগীর উদ্বেগ, হাইপারঅ্যাকটিভিটি, খিঁচুনি, প্রলাপ এবং তরল গিলে ফেলা বা পান করার ভয় থাকে, সেইসাথে বায়ু বা ড্রাফ্ট চলাচলের ভয় থাকে। অন্যান্য রোগীদের মধ্যে, পেশী অবশ হয়ে যায় এবং তারপরে কোমা হয়। একবার লক্ষণ উপস্থিত হলে, বেশিরভাগ রোগী 1 বা 2 সপ্তাহের মধ্যে মারা যায়।"
+                    android:textColor="@color/text"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="
+প্রতিরোধ"
+                    android:textColor="@color/dorange"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="বন্য প্রাণী বা বন্যপ্রাণীর সংস্পর্শ এড়িয়ে চলুন। যদি আপনাকে কোনো স্তন্যপায়ী প্রাণীর দ্বারা কামড়ে বা আঁচড়ে থাকে, তাহলে প্রচুর পরিমাণে সাবান এবং জল দিয়ে ক্ষতটি বারবার এবং পুঙ্খানুপুঙ্খভাবে ধুয়ে ফেলুন এবং একটি অ্যান্টিসেপটিক দিয়ে সেচ দিন। অবিলম্বে চিকিত্সা নিন।"
+                    android:textColor="@color/text"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/regothervacbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="1dp"
+            android:padding="20dp"
+            android:text="Go to Registration Page"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+</ScrollView>

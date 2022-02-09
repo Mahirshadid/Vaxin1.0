@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admindate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Provide Date for Registered Members"
+        android:textSize="10dp"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/dorange"
+        />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                android:inputType="number"
+                android:hint="Mobile"
+                android:enabled="false"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dosenumber"
+            android:spinnerMode="dropdown"
+            android:background="@android:drawable/btn_dropdown"
+            android:layout_gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginVertical="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Select Date: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/dorange"
+            android:layout_marginBottom="10dp"
+            />
+
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/calendar"/>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/datebutton"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="1dp"
+            android:text="Submit"
+            android:textAllCaps="false" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/updatebutton"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="1dp"
+            android:text="Update Date"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ri">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/circle3"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_sick1"
+                android:padding="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lgrey"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Routine Immunizations"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="
+প্রস্তাবিত ভ্যাকসিন"
+                    android:textColor="@color/dorange"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:text="আপনার সুরক্ষার জন্য এবং সংক্রামক রোগের বিস্তার রোধ করার জন্য নিম্নলিখিত টিকাগুলি সুপারিশ করা হয়। আপনি ভ্রমণ করার আগে, নিম্নলিখিত ভ্যাকসিনগুলি পর্যালোচনা করা উচিত এবং প্রয়োজনে আপডেট করা উচিত:
+
+\n\n1. টিটেনাস \n2. ডিপথেরিয়া \n3. পারটুসিস (Tdap)
+হাম \n4. মাম্পস \n5. রুবেলা (এমএমআর),
+পোলিও,
+ইনফ্লুয়েঞ্জা. \n\nইনফ্লুয়েঞ্জা টিকা 6 মাসের বেশি বয়সী সকল ভ্রমণকারীদের জন্য সুপারিশ করা হয়, বিশেষ করে শিশু, গর্ভবতী মহিলা, 65 বছরের বেশি ব্যক্তি এবং দীর্ঘস্থায়ী স্বাস্থ্যের অবস্থা যেমন হাঁপানি, ডায়াবেটিস, ফুসফুসের রোগ, হৃদরোগ, ইমিউনোসপ্রেসিভ ডিসঅর্ডার এবং অঙ্গ প্রতিস্থাপন।"
+                    android:textColor="@color/text"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/regothervacbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="1dp"
+            android:padding="20dp"
+            android:text="Go to Registration Page"
+            android:textAllCaps="false" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
